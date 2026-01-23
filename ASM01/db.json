@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "d38b",
+      "username": "Quỳnh Châu",
+      "email": "chaulnqts02060@gmail.com",
+      "password": "200890",
+      "avatar": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1189",
+      "username": "quỳnh châu",
+      "email": "Esd",
+      "password": "134",
+      "avatar": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "6213",
+      "username": "Chau",
+      "email": "@ghhh",
+      "password": "123",
+      "avatar": "avatar.png"
+    },
+    {
+      "id": "6213",
+      "username": "Chau",
+      "email": "@ghhh",
+      "password": "123",
+      "avatar": "https://via.placeholder.com/150"
+    }
+  ],
+  "posts": [
+    {
+      "id": "f7de",
+      "title": "oke nha",
+      "content": "oookkk\n",
+      "image": "https://picsum.photos/400/200",
+      "date": "1/21/2026"
+    },
+    {
+      "id": "f74c",
+      "title": "Vẻ đẹp phụ nữ",
+      "content": "Phụ nữ tuổi 25",
+      "image": "https://picsum.photos/400/200?random=0.5637153147891134",
+      "date": "1/21/2026"
+    },
+    {
+      "id": "1ba8",
+      "title": "Ngày 22",
+      "content": "Assignment",
+      "image": "https://picsum.photos/400/200?random=1769045932393",
+      "date": "1/22/2026"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": null,
+      "username": "Admin",
+      "content": "Chúc bạn làm Assignment tốt!",
+      "date": "2026-01-21"
+    },
+    {
+      "id": "3601",
+      "postId": "f7de",
+      "username": "Quỳnh Châu",
+      "content": "Đường đẹp ha",
+      "date": "1/21/2026, 5:10:56 PM"
+    },
+    {
+      "id": "0ae0",
+      "postId": null,
+      "username": "Chau",
+      "content": "ok",
+      "date": "1/21/2026, 8:14:34 PM"
+    },
+    {
+      "id": "5c94",
+      "postId": "f7de",
+      "username": "Chau",
+      "content": "đẹp lắm",
+      "date": "1/21/2026, 8:14:45 PM"
+    }
+  ]
+}
