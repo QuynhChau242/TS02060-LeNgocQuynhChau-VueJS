@@ -22,34 +22,45 @@
       "avatar": "avatar.png"
     },
     {
-      "id": "6213",
-      "username": "Chau",
-      "email": "@ghhh",
-      "password": "123",
+      "id": "cf7c",
+      "username": "Mai Anh",
+      "email": "mai23@gmail.com",
+      "password": "234",
       "avatar": "https://via.placeholder.com/150"
     }
   ],
   "posts": [
     {
-      "id": "f7de",
-      "title": "oke nha",
-      "content": "oookkk\n",
-      "image": "https://picsum.photos/400/200",
-      "date": "1/21/2026"
+      "title": "Ánh nắng của anh",
+      "content": "Từ bao lâu nay\nAnh cứ mãi cô đơn bơ vơ\nBao lâu rồi ai đâu hay\nNgày cứ thế trôi qua miên man\nRiêng anh một mình nơi đây\nNhững phút giây trôi qua tầm tay\nChờ một ai đó đến bên anh\nLặng nghe những tâm tư này",
+      "image": "/images/anca.png",
+      "date": "2/6/2026",
+      "author": "Quỳnh Châu",
+      "id": "6b2d"
     },
     {
-      "id": "f74c",
-      "title": "Vẻ đẹp phụ nữ",
-      "content": "Phụ nữ tuổi 25",
-      "image": "https://picsum.photos/400/200?random=0.5637153147891134",
-      "date": "1/21/2026"
+      "title": "Còn Gì Đẹp Hơn",
+      "content": "Sau bao nhiêu năm mới có ngày hòa bình\nDù hòa bình ấy cũng đã lấy đi bao máu xương dân mình\nTrong đêm hoa đăng sau ngày vui chiến thắng\nCó bao cái tên nằm lại nơi đây\nHết kháng chiến nếu con còn chưa về. Mẹ ơi, vui lên, mẹ có đứa con anh hùng\nĐem thanh xuân gieo tự do cho đất nước. Với con thế thôi, còn gì đẹp hơn…",
+      "image": "/images/cgdh.jpg",
+      "date": "2/6/2026",
+      "author": "quỳnh châu",
+      "id": "9c4a"
     },
     {
-      "id": "1ba8",
-      "title": "Ngày 22",
-      "content": "Assignment",
-      "image": "https://picsum.photos/400/200?random=1769045932393",
-      "date": "1/22/2026"
+      "id": "93a2",
+      "title": "Phép màu",
+      "content": "Liệu người có còn ở đây với tôi thật lâu\n\nNgày rộng tháng dài sợ mai không còn thấy nhau\n\nNgày em đến áng mây xanh thêm\n\nNgày em đi nắng vương cuối thềm\n\nThiếu em tôi sợ bơ vơ, vắng em như tàn cơn mơ\n\n",
+      "image": "/images/pm.jpg",
+      "date": "2/6/2026",
+      "author": "Mai Anh"
+    },
+    {
+      "id": "b271",
+      "title": "Nơi này có anh",
+      "content": "Cầm tay anh dựa vai anh\nKề bên anh nơi này có anh\nKhép đôi mi thật lâu\nNguyện mãi bên cạnh nhau yêu say đắm như ngày đầu",
+      "image": "/images/nnca.jpg",
+      "date": "2/6/2026",
+      "author": "Quỳnh Châu"
     }
   ],
   "comments": [
@@ -62,7 +73,7 @@
     },
     {
       "id": "3601",
-      "postId": "f7de",
+      "postId": null,
       "username": "Quỳnh Châu",
       "content": "Đường đẹp ha",
       "date": "1/21/2026, 5:10:56 PM"
@@ -76,10 +87,24 @@
     },
     {
       "id": "5c94",
-      "postId": "f7de",
+      "postId": null,
       "username": "Chau",
       "content": "đẹp lắm",
       "date": "1/21/2026, 8:14:45 PM"
+    },
+    {
+      "id": "7a29",
+      "postId": "6b2d",
+      "username": "Chau",
+      "content": "Hay",
+      "date": "2/6/2026, 11:34:14 PM"
+    },
+    {
+      "id": "2e7e",
+      "postId": "6b2d",
+      "username": "quỳnh châu",
+      "content": "Quá hay",
+      "date": "2/6/2026, 11:35:05 PM"
     }
   ]
 }

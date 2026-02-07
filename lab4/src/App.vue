@@ -1,7 +1,7 @@
 <script setup>
 import Bai4 from './components/Bai4.vue';
-//import Hello from './components/Hello.vue'; 
-//import Bai3 from './components/Bai3.vue';
+// import Hello from './components/Hello.vue'; 
+// import Bai3 from './components/Bai3.vue';
 
 </script>
 
@@ -14,8 +14,11 @@ import Bai4 from './components/Bai4.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-
+  
+  <Hello/>
+  <Bai3/> 
   <Bai4/> 
+
 </template>
 
 <style scoped>

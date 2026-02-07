@@ -1,3 +1,26 @@
+<template>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4 card p-4 shadow">
+        <h2 class="text-center mb-4">Đăng ký tài khoản</h2>
+        <div class="mb-3">
+          <label class="form-label">Họ và tên</label>
+          <input v-model="name" type="text" class="form-control" placeholder="Nhập tên">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input v-model="email" type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mật khẩu</label>
+          <input v-model="password" type="password" class="form-control" placeholder="Mật khẩu">
+        </div>
+        <button @click="register" class="btn btn-primary w-100">Đăng ký</button>
+      </div>
+    </div>
+  </div>
+</template>
+
 <script setup>
 import { ref } from 'vue';
 import axios from 'axios';
@@ -29,25 +52,3 @@ const register = async () => {
 };
 </script>
 
-<template>
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-4 card p-4 shadow">
-        <h2 class="text-center mb-4">Đăng ký tài khoản</h2>
-        <div class="mb-3">
-          <label class="form-label">Họ và tên</label>
-          <input v-model="name" type="text" class="form-control" placeholder="Nhập tên">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Email</label>
-          <input v-model="email" type="email" class="form-control" placeholder="Email">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Mật khẩu</label>
-          <input v-model="password" type="password" class="form-control" placeholder="Mật khẩu">
-        </div>
-        <button @click="register" class="btn btn-primary w-100">Đăng ký</button>
-      </div>
-    </div>
-  </div>
-</template>
